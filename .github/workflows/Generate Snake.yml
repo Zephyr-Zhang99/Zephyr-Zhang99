@@ -16,6 +16,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    steps:
+     - name: metrics-Half-year-calendar
+       uses: lowlighter/metrics@latest
+       with:
+         base: ""
+        filename: assets/metrics.plugin.isocalendar.svg
+         token: ${{ github.token }}
+         plugin_isocalendar: yes
 
     steps:
       # 使用 actions/checkout, see: https://github.com/actions/checkout
