@@ -3,19 +3,6 @@
 # 工作流名称
 name: Generate Snake
 
- # 生成统计图, see: https://github.com/lowlighter/metrics
- github-metrics:
-   runs-on: ubuntu-latest
-   steps:
-     - name: metrics-Half-year-calendar
-       uses: lowlighter/metrics@latest
-       with:
-         base: ""
-         filename: assets/metrics.plugin.isocalendar.svg
-         token: ${{ github.token }}
-         plugin_isocalendar: yes
-
-
 
 # 工作流触发时机, see: https://docs.github.com/zh/actions/using-workflows/triggering-a-workflow
 # 触发条件修改为: 当 main 分支有 push 操作 || 每天 0 点
@@ -29,8 +16,16 @@ on:
 
 jobs:
   build:
+  runs-on: ubuntu-latest
+   steps:
+     - name: metrics-Half-year-calendar
+       uses: lowlighter/metrics@latest
+       with:
+         base: ""
+         filename: assets/metrics.plugin.isocalendar.svg
+         token: ${{ github.token }}
+         plugin_isocalendar: yes
     runs-on: ubuntu-latest
-
     steps:
       # 使用 actions/checkout, see: https://github.com/actions/checkout
       - name: Checkout
