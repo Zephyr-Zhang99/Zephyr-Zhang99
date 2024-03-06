@@ -14,18 +14,6 @@ on:
     - cron: '0 0 * * *'
 
 jobs:
- github-metrics:
-   runs-on: ubuntu-latest
-   steps:
-     - name: metrics-Half-year-calendar
-       uses: lowlighter/metrics@latest
-       with:
-         base: ""
-         filename: assets/metrics.plugin.isocalendar.svg
-         token: ${{ github.token }}
-         plugin_isocalendar: yes
-
-
   build:
     runs-on: ubuntu-latest
 
