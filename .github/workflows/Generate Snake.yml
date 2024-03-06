@@ -3,30 +3,30 @@
 # 工作流名称
 name: Generate Snake
 
-
 # 工作流触发时机, see: https://docs.github.com/zh/actions/using-workflows/triggering-a-workflow
 # 触发条件修改为: 当 main 分支有 push 操作 || 每天 0 点
 on:
   push:
-    branches: 
-      - main  
-  
+    branches:
+      - main
+
   schedule:
-    - cron:  "0 0 * * *" 
+    - cron: '0 0 * * *'
 
 jobs:
   build:
-  runs-on: ubuntu-latest
-   steps:
-     - name: metrics-Half-year-calendar
-       uses: lowlighter/metrics@latest
-       with:
-         base: ""
-         filename: assets/metrics.plugin.isocalendar.svg
-         token: ${{ github.token }}
-         plugin_isocalendar: yes
     runs-on: ubuntu-latest
     steps:
+    - name: Icons
+uses: lowlighter/metrics@latest
+with:
+  filename: metrics.plugin.topics.icons.svg
+  token: NOT_NEEDED
+  base: ""
+  plugin_topics: yes
+  plugin_topics_limit: 0
+  plugin_topics_mode: icons
+
       # 使用 actions/checkout, see: https://github.com/actions/checkout
       - name: Checkout
         uses: actions/checkout@v3
