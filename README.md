@@ -1,7 +1,7 @@
 ### 🚀 Welcome to Zephyr 👏🏻👏🏻👏🏻
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Zephyr-Zhang99&count_private=true&show_icons=true&theme=vue-dark)](https://github.com/Zephyr-Zhang99)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zephyr-Zhang99&locale=en&&layout=compact&theme=vue-dark&bg_color=#2B3847)](https://github.com/Zephyr-Zhang99)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Zephyr-Zhang99&count_private=true&show_icons=true&catppuccin_latte)](https://github.com/Zephyr-Zhang99)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zephyr-Zhang99&locale=en&&layout=compact&catppuccin_latte)](https://github.com/Zephyr-Zhang99)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
