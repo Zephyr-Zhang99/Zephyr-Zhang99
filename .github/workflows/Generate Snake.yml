@@ -16,8 +16,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-     - name: metrics-Half-year-calendar
+      - name: metrics-Half-year-calendar
        uses: lowlighter/metrics@latest
        with:
          base: ""
@@ -25,7 +26,6 @@ jobs:
          token: ${{ github.token }}
          plugin_isocalendar: yes
 
-    steps:
       # 使用 actions/checkout, see: https://github.com/actions/checkout
       - name: Checkout
         uses: actions/checkout@v3
