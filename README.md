@@ -4,7 +4,7 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zephyr-Zhang99)](https://github.com/Zephyr-Zhang99)
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zephyr-Zhang99&locale=en)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zephyr-Zhang99&locale=cn)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Zephyr-Zhang99&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
