@@ -40,3 +40,9 @@
 </div>
 
 ###
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/Zephyr-Zhang99/Zephyr-Zhang99/output/snake.svg" alt="Snake animation" />
+
+###
