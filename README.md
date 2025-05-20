@@ -34,7 +34,7 @@
   <img width="12" />
   <img src="https://cdn.simpleicons.org/nuxt/00DC82" height="30" alt="nuxtjs logo"  />
   <img width="12" />
-  <img src="https://cdn.simpleicons.org/rust/000000" height="30" alt="rust logo"  />
+  <img src="https://skillicons.dev/icons?i=rust" height="30" alt="rust logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" height="30" alt="chrome logo"  />
 </div>
